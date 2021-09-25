@@ -1,7 +1,5 @@
 import requests
 
-API_KEY = '96e0cc51-a62e-42ca-acee-910ea7d2a241'
-
 #--- function to get token balances from zapper fi ---#
 def token_balances(wallet_address):
     api_url = 'https://api.zapper.fi/v1/protocols/tokens/balances?addresses%5B%5D='+wallet_address+'&network=ethereum&api_key=96e0cc51-a62e-42ca-acee-910ea7d2a241'
